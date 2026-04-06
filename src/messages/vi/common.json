@@ -1,0 +1,14 @@
+{
+    "common": {
+        "login": "Đăng Nhập",
+        "register": "Đăng Ký",
+        "downloadapp": "Tải Ứng Dụng"
+    },
+    
+    "navtop": {
+        "storelocator": "Cửa Hàng Gần Bạn",
+        "connects": "Kết Nối",
+        "checkorder": "Kiểm Tra Đơn Hàng",
+        "help": "Trợ Giúp"
+    }
+}

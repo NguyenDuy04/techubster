@@ -1,0 +1,40 @@
+# 1. Dependencies (Thư viện cài đặt)
+node_modules/
+jspm_packages/
+
+# 2. Next.js Build Output (Các tệp tạm khi chạy dev và build)
+.next/
+out/
+build/
+
+# 3. Environment Variables (CỰC KỲ QUAN TRỌNG - Bảo mật)
+# Không bao giờ push các file này lên GitHub vì nó chứa API Key, Database URL
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 4. Debug & Logs (Các tệp log khi có lỗi)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+logs
+*.log
+
+# 5. OS & IDE Settings (Cài đặt cá nhân của máy tính/Editor)
+.DS_Store
+*.pem
+.vscode/
+.idea/
+*.swp
+*.thumbs.db
+
+# 6. Testing (Nếu bạn dùng Cypress hoặc Jest)
+cypress/videos/
+cypress/screenshots/
+coverage/
+
+# 7. Turbopack & Cache
+.turbo/

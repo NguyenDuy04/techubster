@@ -1,0 +1,14 @@
+{
+    "common": {
+        "login": "Login",
+        "register": "Register",
+        "downloadapp": "Download App"
+    },
+    
+    "navtop": {
+        "storelocator": "Store Locator",
+        "connects": "Connects",
+        "checkorder": "Check Order",
+        "help": "Help"
+    }
+}
