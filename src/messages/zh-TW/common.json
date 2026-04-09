@@ -1,0 +1,13 @@
+{
+    "common": {
+        "login": "登入",
+        "register": "註冊",
+        "downloadapp": "下載應用程式"
+    },
+    "navtop": {
+        "storelocator": "門市定位",
+        "connects": "連接",
+        "checkorder": "訂單查詢",
+        "help": "幫助"
+    }
+}

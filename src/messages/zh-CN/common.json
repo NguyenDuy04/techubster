@@ -1,0 +1,13 @@
+{
+    "common": {
+        "login": "登录",
+        "register": "注册",
+        "downloadapp": "下载应用"
+    },
+    "navtop": {
+        "storelocator": "门店定位",
+        "connects": "连接",
+        "checkorder": "订单查询",
+        "help": "帮助"
+    }
+}

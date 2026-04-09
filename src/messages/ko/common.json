@@ -1,0 +1,13 @@
+{
+    "common": {
+        "login": "로그인",
+        "register": "회원가입",
+        "downloadapp": "앱 다운로드"
+    },
+    "navtop": {
+        "storelocator": "매장 찾기",
+        "connects": "연결",
+        "checkorder": "주문 조회",
+        "help": "도움말"
+    }
+}

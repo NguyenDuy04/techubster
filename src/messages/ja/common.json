@@ -1,0 +1,13 @@
+{
+    "common": {
+        "login": "ログイン",
+        "register": "登録",
+        "downloadapp": "アプリをダウンロード"
+    },
+    "navtop": {
+        "storelocator": "店舗検索",
+        "connects": "接続",
+        "checkorder": "注文確認",
+        "help": "ヘルプ"
+    }
+}

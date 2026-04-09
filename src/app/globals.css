@@ -10,6 +10,8 @@
         --primary-text: #0f172a;
         --primary-text-hover: rgba(15, 23, 42, 0.8);
         --primary-text-icon: #99ff99;
+        /* Chưa làm sang chế độ tối */
+        --bg-white-hover: #f5f5f57e;
     }
 
     .dark {
@@ -17,7 +19,6 @@
         --foreground: #ffffff;
         --navtop-bg: #162330;
         --primary-text: #94a3b8;
-        --primary-text-icon: #99ff99;
     }
 
     body {
