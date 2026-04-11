@@ -33,7 +33,7 @@ export const Navbar = () => {
             <div className='flex justify-between items-center h-9 max-w-360 mx-auto'>
                 <div className='flex items-center gap-5 h-full'>
                     <div className='group relative before:content-[""] before:absolute before:-right-2.5 before:top-1/2 before:-translate-y-1/2 before:w-px before:h-5.5 before:bg-gray-300 flex items-center gap-0.5 cursor-pointer select-none h-full'>
-                        <Icons.MapIcon className='w-5.5 h-5.5 block text-(--primary-text-icon)' />
+                        <Icons.MapIcon className='w-5.5 h-5.5 block text-(--primary-color)' />
                         <span className='text-[15px] text-(--primary-text) transition-all duration-200 ease-in-out hover:text-(--primary-text-hover)'>
                             {tCommon("navtop.storelocator")}
                         </span>
@@ -43,7 +43,7 @@ export const Navbar = () => {
                         onMouseEnter={() => setIsHoveredQrcode(true)}
                         onMouseLeave={() => setIsHoveredQrcode(false)}>
                         <div className='flex items-center gap-0.5 cursor-pointer select-none h-full'>
-                            <Icons.DownloadIcon className='w-5 h-5 block text-(--primary-text-icon)' />
+                            <Icons.DownloadIcon className='w-5 h-5 block text-(--primary-color)' />
                             <span className='text-[15px] text-(--primary-text) transition-all duration-200 ease-in-out hover:text-(--primary-text-hover)'>
                                 {tCommon("common.downloadapp")}
                             </span>
@@ -93,7 +93,7 @@ export const Navbar = () => {
                         onMouseLeave={() => setIsHoveredLanguage(false)}>
                         <div className='flex h-full group items-center'>
                             <div className='flex items-center gap-0.5 select-none cursor-pointer'>
-                                <Icons.LanguageIcon className='w-5 h-5 block text-(--primary-text-icon)' />
+                                <Icons.LanguageIcon className='w-5 h-5 block text-(--primary-color)' />
                                 <span className='text-[15px] text-(--primary-text) transition-all duration-200 ease-in-out hover:text-(--primary-text-hover)'>{currentLang?.name}</span>
                             </div>
                             <Icons.RightIcon className='flex items-center group-hover:rotate-90 w-5 h-5 text-(--primary-text) transition-all duration-150 ease-in-out' />
@@ -125,7 +125,7 @@ export const Navbar = () => {
                                                 </div>
 
                                                 {isLanguageActive && (
-                                                    <Icons.CheckIcon className="w-5 h-5 text-(--primary-text-icon)" />
+                                                    <Icons.CheckIcon className="w-5 h-5 text-(--primary-color)" />
                                                 )}
                                             </button>
                                         );
@@ -135,13 +135,13 @@ export const Navbar = () => {
                         </AnimatePresence>
                     </div>
                     <div className='flex group items-center gap-0.5 select-none cursor-pointer relative before:content-[""] before:absolute before:-right-2.5 before:w-px before:h-5.5 before:bg-gray-300 before:top-1/2 before:-translate-y-1/2'>
-                        <Icons.CheckorderIcon className='w-4.5 h-4.5 block text-(--primary-text-icon)' />
+                        <Icons.CheckorderIcon className='w-4.5 h-4.5 block text-(--primary-color)' />
                         <span className='text-[15px] text-(--primary-text) transition-all duration-200 ease-in-out hover:text-(--primary-text-hover)'>
                             {tCommon("navtop.checkorder")}
                         </span>
                     </div>
                     <div className='flex group items-center gap-0.5 select-none cursor-pointer'>
-                        <Icons.HelpIcon className='w-5 h-5 block text-(--primary-text-icon)' />
+                        <Icons.HelpIcon className='w-5 h-5 block text-(--primary-color)' />
                         <span className='text-[15px] text-(--primary-text) transition-all duration-200 ease-in-out hover:text-(--primary-text-hover)'>
                             {tCommon("navtop.help")}
                         </span>
