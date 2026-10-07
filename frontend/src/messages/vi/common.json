@@ -1,2 +1,9 @@
 {
+  "TopNav": {
+    "storeLocation": "Địa điểm cửa hàng",
+    "downloadApp": "Tải ứng dụng",
+    "connect": "Kết nối",
+    "trackOrder": "Theo dõi đơn hàng",
+    "help": "Trợ giúp"
+  }
 }

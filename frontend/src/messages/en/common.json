@@ -1,1 +1,9 @@
-{}
+{
+  "TopNav": {
+    "storeLocation": "Store Location",
+    "downloadApp": "Download App",
+    "connect": "Connect",
+    "trackOrder": "Track Order",
+    "help": "Help"
+  }
+}
