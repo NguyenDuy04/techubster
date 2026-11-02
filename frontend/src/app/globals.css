@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@custom-variant dark (&:where(.dark, .dark *));
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  cursor: text;
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  color-scheme: light;
+  --background: #f3f5f7;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --border: #e2e8f0;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: #020817;
+  --foreground: #e2e8f0;
+}
+
+@theme inline {
+  /* top nav */
+  --color-border-navtop: #ccc;
+  --color-topnav: #ecf9ec;
+  --color-header: #f7f9fa;
+}
