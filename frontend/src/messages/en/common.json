@@ -1,5 +1,33 @@
 {
   "app": {
     "loading": "Loading RentFlow..."
+  },
+  "TopNav": {
+    "storeLocation": "Store Location",
+    "downloadApp": "Download App",
+    "connect": "Connect",
+    "trackOrder": "Track Order",
+    "help": "Help"
+  },
+  "Header": {
+    "home": "Home",
+    "laptops": "Laptops",
+    "phones": "Phones",
+    "audio": "Audio",
+    "gaming": "Gaming",
+    "smartHome": "Smart Home",
+    "accessories": "Accessories",
+    "searchPlaceholder": "Search for products, brands, and more",
+    "search": "Search",
+    "support": "Support",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "account": "Account",
+    "openMenu": "Open menu",
+    "todayDeals": "Today deals",
+    "freeShipping": "Free shipping over $99",
+    "sameDayDelivery": "Same-day delivery",
+    "newArrivals": "New arrivals",
+    "viewOffers": "View offers"
   }
 }

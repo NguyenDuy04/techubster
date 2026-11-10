@@ -1,5 +1,33 @@
 {
   "app": {
     "loading": "Đang tải RentFlow..."
+  },
+  "TopNav": {
+    "storeLocation": "Địa điểm cửa hàng",
+    "downloadApp": "Tải ứng dụng",
+    "connect": "Kết nối",
+    "trackOrder": "Theo dõi đơn hàng",
+    "help": "Trợ giúp"
+  },
+  "Header": {
+    "home": "Trang chủ",
+    "laptops": "Laptop",
+    "phones": "Điện thoại",
+    "audio": "Âm thanh",
+    "gaming": "Gaming",
+    "smartHome": "Nhà thông minh",
+    "accessories": "Phụ kiện",
+    "searchPlaceholder": "Tìm kiếm sản phẩm, thương hiệu và hơn thế nữa",
+    "search": "Tìm kiếm",
+    "support": "Hỗ trợ",
+    "wishlist": "Yêu thích",
+    "cart": "Giỏ hàng",
+    "account": "Tài khoản",
+    "openMenu": "Mở menu",
+    "todayDeals": "Khuyến mãi hôm nay",
+    "freeShipping": "Miễn phí vận chuyển từ 2.999K",
+    "sameDayDelivery": "Giao hàng trong ngày",
+    "newArrivals": "Sản phẩm mới",
+    "viewOffers": "Xem ưu đãi"
   }
 }
