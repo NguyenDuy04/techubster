@@ -1,1 +1,5 @@
-{}
+{
+  "app": {
+    "loading": "Loading RentFlow..."
+  }
+}

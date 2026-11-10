@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/duypinky/Development/techubster/frontend/src/app/[locale]/(shop)/page.tsx"],"sourcesContent":["export default function RootPage() {\n    return (\n        <div>\n            Root Page\n        </div>\n    );\n}"],"names":["RootPage"],"mappings":";;;;;;AAAe,SAASA;IACpB,qBACI,8OAAC;kBAAI;;;;;;AAIb"}}]
+}

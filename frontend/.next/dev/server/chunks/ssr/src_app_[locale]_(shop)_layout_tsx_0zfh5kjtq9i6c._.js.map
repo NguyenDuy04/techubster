@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/duypinky/Development/techubster/frontend/src/app/[locale]/(shop)/layout.tsx"],"sourcesContent":["export default function ShopLayout({\n    children,\n}: Readonly<{\n    children: React.ReactNode;\n}>) {\n    return (\n        <div id=\"apps\">\n            <main>{children}</main>\n        </div>\n    );\n}"],"names":["ShopLayout","children","id"],"mappings":";;;;;;AAAe,SAASA,WAAW,EAC/BC,QAAQ,EAGV;IACE,qBACI,8OAAC;QAAIC,IAAG;kBACJ,cAAA,8OAAC;sBAAMD;;;;;;;;;;;AAGnB"}}]
+}
